@@ -1,0 +1,342 @@
+/*Style for plugin Step Total*/
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.sc-row {
+    display: flex;
+}
+
+.sc-10 {
+    width: 10%;
+    padding: 5px;
+}
+
+.sc-20 {
+    width: 20%;
+    padding: 5px;
+}
+
+.sc-30 {
+    width: 30%;
+    padding: 5px;
+}
+
+.sc-40 {
+    width: 40%;
+    padding: 5px;
+}
+
+.sc-50 {
+    width: 50%;
+    padding: 5px;
+}
+
+.sc-60 {
+    width: 60%;
+    padding: 5px;
+}
+
+.sc-70 {
+    width: 70%;
+    padding: 5px;
+}
+
+.sc-80 {
+    width: 80%;
+    padding: 5px;
+}
+
+.sc-90 {
+    width: 90%;
+    padding: 5px;
+}
+
+.sc-100 {
+    width: 100%;
+    padding: 5px;
+}
+
+.steps {
+    display: flex;
+}
+
+.step-link {
+    margin-right: 10px;
+}
+
+.sel-radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.5em 0;
+}
+
+.sel-radio+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.sel-radio+label::before {
+    margin: 0.5em 0.5em 0.5em 0;
+    content: '';
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+/* style for radio in hover  */
+.sel-radio:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #b3d7ff;
+}
+
+/* style for radio in press  */
+.sel-radio:not(:disabled):active+label::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+}
+
+/*  style for radio in focus */
+.sel-radio:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* style for radio in focus */
+.sel-radio:focus:not(:checked)+label::before {
+    border-color: #80bdff;
+}
+
+/* style for radio in checked */
+.sel-radio:checked+label::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+/* Style for checkbox */
+.opt-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.5em 0;
+}
+
+.opt-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.opt-checkbox+label::before {
+    margin: 0.5em 0.5em 0.5em 0;
+    content: '';
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.opt-checkbox:checked+label::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+/* style for checkbox in hover */
+.opt-checkbox:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #b3d7ff;
+}
+
+/* style for checkbox in press */
+.opt-checkbox:not(:disabled):active+label::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+}
+
+/* style for checkbox in focus */
+.opt-checkbox:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* style for checkbox in focus */
+.opt-checkbox:focus:not(:checked)+label::before {
+    border-color: #80bdff;
+}
+
+
+.active {
+    display: flex;
+    transition: display 0.2s;
+}
+
+.hide {
+    display: none;
+    transition: display 0.2s;
+}
+
+.radio {
+    margin: 16px 0;
+    display: block;
+    cursor: pointer;
+}
+
+.radio input {
+    display: none;
+}
+
+.radio input+span {
+    line-height: 22px;
+    height: 22px;
+    padding-left: 22px;
+    display: block;
+    position: relative;
+}
+
+.radio input+span:not(:empty) {
+    padding-left: 30px;
+}
+
+.radio input+span:before,
+.radio input+span:after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    display: block;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.radio input+span:before {
+    background: #d1d7e3;
+    transition: background 0.2s ease, transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 2);
+}
+
+.radio input+span:after {
+    background: #fff;
+    transform: scale(0.78);
+    transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.4);
+}
+
+.radio input:checked+span:before {
+    transform: scale(1.04);
+    background: #5d9bfb;
+}
+
+.radio input:checked+span:after {
+    transform: scale(0.4);
+    transition: transform 0.3s ease;
+}
+
+.radio:hover input+span:before {
+    transform: scale(0.92);
+}
+
+.radio:hover input+span:after {
+    transform: scale(0.74);
+}
+
+.radio:hover input:checked+span:after {
+    transform: scale(0.4);
+}
+
+
+.sc-check {
+    margin: 16px 0;
+    display: block;
+    cursor: pointer;
+}
+
+.sc-check input {
+    display: none !important;
+}
+
+.sc-check input+span {
+    line-height: 22px;
+    height: 22px;
+    padding-left: 22px;
+    display: block;
+    position: relative;
+}
+
+.sc-check input+span:not(:empty) {
+    padding-left: 30px;
+}
+
+.sc-check input+span:before,
+.sc-check input+span:after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    display: block;
+    border-radius: 30%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.sc-check input+span:before {
+    background: #d1d7e3;
+    transition: background 0.2s ease, transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 2);
+}
+
+.sc-check input+span:after {
+    background: #fff;
+    transform: scale(0.78);
+    transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.4);
+}
+
+.sc-check input:checked+span:before {
+    transform: scale(1.04);
+    background: #5d9bfb;
+}
+
+.sc-check input:checked+span:after {
+    transform: scale(0.4);
+    transition: transform 0.3s ease;
+}
+
+.sc-check:hover input+span:before {
+    transform: scale(0.92);
+}
+
+.sc-check:hover input+span:after {
+    transform: scale(0.74);
+}
+
+.sc-check:hover input:checked+span:after {
+    transform: scale(0.4);
+}
+
+.submit-button {
+    padding: 15px 25px !important;
+    border-radius: 5px !important;
+    border: 0 !important;
+    background: #dcdbee !important;
+    cursor: pointer !important;
+}
+
+.submit-button:hover {
+    background: #5d9bfb !important;
+    color: #fff !important;
+}

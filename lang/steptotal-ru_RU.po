@@ -1,0 +1,300 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: steptotal\n"
+"POT-Creation-Date: 2023-03-13 18:34+0100\n"
+"PO-Revision-Date: 2023-03-13 18:34+0100\n"
+"Last-Translator: Yevgeniy Muratshayev <forme@muratshaev.me>\n"
+"Language-Team: mrtattobu\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .\n"
+
+#: index.php:44 index.php:45 index.php:46 index.php:59 index.php:178
+#: index.php:223 index.php:665
+msgid "Step by step Calculator"
+msgstr "Пошаговый калькулятор"
+
+#: index.php:47 index.php:166
+msgid "All steps"
+msgstr "Все шаги"
+
+#: index.php:48
+msgid "Look Step of calculator"
+msgstr "Посмотреть шаг калькулятора"
+
+#: index.php:49
+msgid "Add new Step for Calculator"
+msgstr "Добавить новый шаг для калькулятора"
+
+#: index.php:50 index.php:609
+msgid "Add new"
+msgstr "Добавить новый"
+
+#: index.php:51
+msgid "Edit Step of caclulator"
+msgstr "Редактировать шаг калькулятора"
+
+#: index.php:52
+msgid "Update Step of calculator"
+msgstr "Обновить шаг калькулятора"
+
+#: index.php:53 index.php:172
+msgid "Search Step"
+msgstr "Найти шаг"
+
+#: index.php:54 index.php:173 index.php:315 index.php:464 index.php:613
+msgid "Not found"
+msgstr "Не найдено"
+
+#: index.php:55 index.php:174 index.php:316 index.php:465 index.php:614
+msgid "Not found in trash"
+msgstr "Не найдено в корзине"
+
+#: index.php:58
+msgid "steptotal"
+msgstr "steptotal"
+
+#: index.php:104
+msgid "Shorcode for insert:"
+msgstr "Шорткод для вставки:"
+
+#: index.php:106 index.php:245 index.php:389
+msgid "Step name"
+msgstr "Наименование шага"
+
+#: index.php:108 index.php:109 index.php:247 index.php:248 index.php:393
+#: index.php:394 index.php:542 index.php:543
+msgid "Photo"
+msgstr "Фото"
+
+#: index.php:111 index.php:250 index.php:396 index.php:545
+msgid "Select Photo"
+msgstr "Выбрать фото"
+
+#: index.php:120 index.php:259 index.php:405 index.php:554
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: index.php:163 index.php:164
+msgid "Steps for Step by step Calculator"
+msgstr "Шаги для пошагового калькулятора"
+
+#: index.php:165
+msgid "Steps"
+msgstr "Шаги"
+
+#: index.php:167
+msgid "Look Step"
+msgstr "Посмотреть шаг"
+
+#: index.php:168
+msgid "Add new Step"
+msgstr "Добавить новый шаг"
+
+#: index.php:169
+msgid "Add new step"
+msgstr "Добавить новый шаг"
+
+#: index.php:170
+msgid "Edit Step"
+msgstr "Редактировать шаг"
+
+#: index.php:171
+msgid "Update Step"
+msgstr "Обновить шаг"
+
+#: index.php:177
+msgid "stepstotal"
+msgstr "steptotal"
+
+#: index.php:243 index.php:387 index.php:536
+msgid "Order"
+msgstr "Последовательность"
+
+#: index.php:305 index.php:306 index.php:320 index.php:516
+msgid "Select for Calculator"
+msgstr "Вариант калькулятора"
+
+#: index.php:307
+msgid "Select"
+msgstr "Вариант"
+
+#: index.php:308
+msgid "All Select"
+msgstr "Все варианты"
+
+#: index.php:309
+msgid "Look Select"
+msgstr "Посмотреть вариант"
+
+#: index.php:310 index.php:311
+msgid "Add new Select"
+msgstr "Добавить новый вариант"
+
+#: index.php:312
+msgid "Edit Select"
+msgstr "Редактировать вариант"
+
+#: index.php:313
+msgid "Update Select"
+msgstr "Обновить вариант"
+
+#: index.php:314
+msgid "Search Select"
+msgstr "Найти вариант"
+
+#: index.php:319
+msgid "selecttotal"
+msgstr "selecttotal"
+
+#: index.php:367
+msgid "Step of Calculator"
+msgstr "Шаг для калькулятора"
+
+#: index.php:391 index.php:540 index.php:952
+msgid "Price"
+msgstr "Цена"
+
+#: index.php:454 index.php:455 index.php:469
+msgid "Option for Calculator"
+msgstr "Опция калькулятора"
+
+#: index.php:456
+msgid "Options"
+msgstr "Опции"
+
+#: index.php:457
+msgid "All options"
+msgstr "Все опции"
+
+#: index.php:458
+msgid "Look Option"
+msgstr "Посмотреть опцию"
+
+#: index.php:459 index.php:460
+msgid "Add new Option"
+msgstr "Добавить новую опцию"
+
+#: index.php:461
+msgid "Edit Option"
+msgstr "Редактировать опцию"
+
+#: index.php:462
+msgid "Update Option"
+msgstr "Обновить опцию"
+
+#: index.php:463
+msgid "Search Option"
+msgstr "Найти опцию"
+
+#: index.php:468
+msgid "optiontotal"
+msgstr "optiontotal"
+
+#: index.php:538
+msgid "Option name"
+msgstr "Наименование опции"
+
+#: index.php:603 index.php:604 index.php:605 index.php:618
+msgid "Invoice for Calculator"
+msgstr "Заказ калькулятора"
+
+#: index.php:606
+msgid "All Invoices for Calculators"
+msgstr "Все заказы калькуляторов"
+
+#: index.php:607
+msgid "Look Invoice for Calculator"
+msgstr "Посмотреть заказ калькулятора"
+
+#: index.php:608
+msgid "Add new Invoice for Calculator"
+msgstr "Добавить новый заказ калькулятора"
+
+#: index.php:610
+msgid "Edit Invoice for Calculator"
+msgstr "Редактировать заказ калькулятора"
+
+#: index.php:611
+msgid "Update Invoice for Calculator"
+msgstr "Обновить заказ калькулятора"
+
+#: index.php:612
+msgid "Search Invoice for Calculator"
+msgstr "Найти заказ калькулятора"
+
+#: index.php:617
+msgid "invoicetotal"
+msgstr "invoicetotal"
+
+#: index.php:685
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: index.php:687 index.php:1005
+msgid "Email"
+msgstr "Email"
+
+#: index.php:689
+msgid "Total Price"
+msgstr "Итого"
+
+#: index.php:807 index.php:809
+msgid "No select"
+msgstr "Не выбрано"
+
+#: index.php:852
+msgid "Options:"
+msgstr "Опции:"
+
+#: index.php:920
+msgid "Back"
+msgstr "Назад"
+
+#: index.php:925 index.php:1093
+msgid "Next"
+msgstr "Далее"
+
+#: index.php:930
+msgid "Apply"
+msgstr "Применить"
+
+#: index.php:947
+msgid "Total"
+msgstr "Итого"
+
+#: index.php:952
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: index.php:952
+msgid "Option"
+msgstr "Опция"
+
+#: index.php:994 index.php:999
+msgid "Total:"
+msgstr "Всего:"
+
+#: index.php:1002
+msgid "Create order"
+msgstr "Создать заказ"
+
+#: index.php:1003
+msgid "You name:"
+msgstr "Ваше имя:"
+
+#: index.php:1010
+msgid "Send"
+msgstr "Выслать"
+
+#: index.php:1055
+msgid "Thanks. Done!"
+msgstr "Спасибо. Принято!"

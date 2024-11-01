@@ -1,0 +1,300 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: steptotal\n"
+"POT-Creation-Date: 2023-03-13 18:34+0100\n"
+"PO-Revision-Date: 2023-03-13 18:34+0100\n"
+"Last-Translator: Yevgeniy Muratshayev <forme@muratshaev.me>\n"
+"Language-Team: mrtattobu\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .\n"
+
+#: index.php:44 index.php:45 index.php:46 index.php:59 index.php:178
+#: index.php:223 index.php:665
+msgid "Step by step Calculator"
+msgstr ""
+
+#: index.php:47 index.php:166
+msgid "All steps"
+msgstr ""
+
+#: index.php:48
+msgid "Look Step of calculator"
+msgstr ""
+
+#: index.php:49
+msgid "Add new Step for Calculator"
+msgstr ""
+
+#: index.php:50 index.php:609
+msgid "Add new"
+msgstr ""
+
+#: index.php:51
+msgid "Edit Step of caclulator"
+msgstr ""
+
+#: index.php:52
+msgid "Update Step of calculator"
+msgstr ""
+
+#: index.php:53 index.php:172
+msgid "Search Step"
+msgstr ""
+
+#: index.php:54 index.php:173 index.php:315 index.php:464 index.php:613
+msgid "Not found"
+msgstr ""
+
+#: index.php:55 index.php:174 index.php:316 index.php:465 index.php:614
+msgid "Not found in trash"
+msgstr ""
+
+#: index.php:58
+msgid "steptotal"
+msgstr ""
+
+#: index.php:104
+msgid "Shorcode for insert:"
+msgstr ""
+
+#: index.php:106 index.php:245 index.php:389
+msgid "Step name"
+msgstr ""
+
+#: index.php:108 index.php:109 index.php:247 index.php:248 index.php:393
+#: index.php:394 index.php:542 index.php:543
+msgid "Photo"
+msgstr ""
+
+#: index.php:111 index.php:250 index.php:396 index.php:545
+msgid "Select Photo"
+msgstr ""
+
+#: index.php:120 index.php:259 index.php:405 index.php:554
+msgid "Upload Image"
+msgstr ""
+
+#: index.php:163 index.php:164
+msgid "Steps for Step by step Calculator"
+msgstr ""
+
+#: index.php:165
+msgid "Steps"
+msgstr ""
+
+#: index.php:167
+msgid "Look Step"
+msgstr ""
+
+#: index.php:168
+msgid "Add new Step"
+msgstr ""
+
+#: index.php:169
+msgid "Add new step"
+msgstr ""
+
+#: index.php:170
+msgid "Edit Step"
+msgstr ""
+
+#: index.php:171
+msgid "Update Step"
+msgstr ""
+
+#: index.php:177
+msgid "stepstotal"
+msgstr ""
+
+#: index.php:243 index.php:387 index.php:536
+msgid "Order"
+msgstr ""
+
+#: index.php:305 index.php:306 index.php:320 index.php:516
+msgid "Select for Calculator"
+msgstr ""
+
+#: index.php:307
+msgid "Select"
+msgstr ""
+
+#: index.php:308
+msgid "All Select"
+msgstr ""
+
+#: index.php:309
+msgid "Look Select"
+msgstr ""
+
+#: index.php:310 index.php:311
+msgid "Add new Select"
+msgstr ""
+
+#: index.php:312
+msgid "Edit Select"
+msgstr ""
+
+#: index.php:313
+msgid "Update Select"
+msgstr ""
+
+#: index.php:314
+msgid "Search Select"
+msgstr ""
+
+#: index.php:319
+msgid "selecttotal"
+msgstr ""
+
+#: index.php:367
+msgid "Step of Calculator"
+msgstr ""
+
+#: index.php:391 index.php:540 index.php:952
+msgid "Price"
+msgstr ""
+
+#: index.php:454 index.php:455 index.php:469
+msgid "Option for Calculator"
+msgstr ""
+
+#: index.php:456
+msgid "Options"
+msgstr ""
+
+#: index.php:457
+msgid "All options"
+msgstr ""
+
+#: index.php:458
+msgid "Look Option"
+msgstr ""
+
+#: index.php:459 index.php:460
+msgid "Add new Option"
+msgstr ""
+
+#: index.php:461
+msgid "Edit Option"
+msgstr ""
+
+#: index.php:462
+msgid "Update Option"
+msgstr ""
+
+#: index.php:463
+msgid "Search Option"
+msgstr ""
+
+#: index.php:468
+msgid "optiontotal"
+msgstr ""
+
+#: index.php:538
+msgid "Option name"
+msgstr ""
+
+#: index.php:603 index.php:604 index.php:605 index.php:618
+msgid "Invoice for Calculator"
+msgstr ""
+
+#: index.php:606
+msgid "All Invoices for Calculators"
+msgstr ""
+
+#: index.php:607
+msgid "Look Invoice for Calculator"
+msgstr ""
+
+#: index.php:608
+msgid "Add new Invoice for Calculator"
+msgstr ""
+
+#: index.php:610
+msgid "Edit Invoice for Calculator"
+msgstr ""
+
+#: index.php:611
+msgid "Update Invoice for Calculator"
+msgstr ""
+
+#: index.php:612
+msgid "Search Invoice for Calculator"
+msgstr ""
+
+#: index.php:617
+msgid "invoicetotal"
+msgstr ""
+
+#: index.php:685
+msgid "Username"
+msgstr ""
+
+#: index.php:687 index.php:1005
+msgid "Email"
+msgstr ""
+
+#: index.php:689
+msgid "Total Price"
+msgstr ""
+
+#: index.php:807 index.php:809
+msgid "No select"
+msgstr ""
+
+#: index.php:852
+msgid "Options:"
+msgstr ""
+
+#: index.php:920
+msgid "Back"
+msgstr ""
+
+#: index.php:925 index.php:1093
+msgid "Next"
+msgstr ""
+
+#: index.php:930
+msgid "Apply"
+msgstr ""
+
+#: index.php:947
+msgid "Total"
+msgstr ""
+
+#: index.php:952
+msgid "Configuration"
+msgstr ""
+
+#: index.php:952
+msgid "Option"
+msgstr ""
+
+#: index.php:994 index.php:999
+msgid "Total:"
+msgstr ""
+
+#: index.php:1002
+msgid "Create order"
+msgstr ""
+
+#: index.php:1003
+msgid "You name:"
+msgstr ""
+
+#: index.php:1010
+msgid "Send"
+msgstr ""
+
+#: index.php:1055
+msgid "Thanks. Done!"
+msgstr ""
